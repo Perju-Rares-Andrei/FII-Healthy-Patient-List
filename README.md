@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# FII-Healthy-Patient-List
+
 
 FII-Healthy-Patient-List este o pagina web realizata in React care face parte dintr-un proiect mai amplu numit FII-Healthy ce propune o aplicatie web care are ca scop diagnosticarea corona virusului prin intermediul unui fisier audio (diagnosticate print-un model ML care este antrenat de fisiere audio)si prescrierea unui tratament de catre un doctor inregistrat in aceeasi platforma .
 
