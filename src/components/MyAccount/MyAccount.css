@@ -1,0 +1,12 @@
+.my-account-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 4%;
+
+}
+
+h1 {
+    font-size: 1.1em;
+    font-weight: normal;
+}

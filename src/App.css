@@ -1,0 +1,122 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+}
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
+.App-header {
+  background-color: #ffffff;
+  width: 85%;
+  position: absolute;
+  right: 0px;
+  top: 0;
+  height: 6%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.DashBoard {
+  background-color: antiquewhite;
+  width: 15%;
+  position: absolute;
+  height: 100%;
+}
+
+.Cards-section {
+  background-color: azure;
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 94%;
+
+}
+
+.Card {
+  background-color: white;
+  width: 25%;
+  margin: 20px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.Cards-table {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.Cards-section {
+  background-color: lightgray;
+}
+#cards-section-top {
+  width: 100%;
+  height: 20%;
+  background-color: #0039a6;
+  background-image: url("https://wallpaperaccess.com/full/1690249.jpg");
+  background-size: cover;
+}
+#cards-section-top-title {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  padding: 50px 0 0 25px;
+}
+#cards-section-bottom {
+  width: 100%;
+  height: 80%;
+  background-color: lightgray;
+  overflow: auto;
+}
+.card-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 0 0 0 15px;
+}
+.card-footer {
+  text-align: end;
+  color: green;
+  font-weight: bolder;
+  padding-right: 10px;
+}
+.card-content-age-gender {
+  color: lightgray;
+  padding-bottom: 2px;
+}
+#trash {
+  color: red;
+}
+.card-header-photo-name-container {
+  width: 75%;
+  display: flex;
+}
+.card-header-trash-icon-container {
+  width: 25%;
+  text-align: end;
+  padding-right: 20px;
+}
+.card-photo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: contain;
+  padding-left: 20px;
+}
+.card-name {
+  padding: 15px 0 0 30px;
+  font-size: 18px;
+}
