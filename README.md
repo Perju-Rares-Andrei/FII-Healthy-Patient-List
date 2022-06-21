@@ -5,4 +5,6 @@ FII-Healthy-Patient-List este o pagina web realizata in React care face parte di
 
 
 Lista pacientilor este task-ul realizat de catre mine din acest proiect , aceasta pagina are ca scop vizualizarea pacientilor inregistrati in platforma care au primit un diagnostic pozitiv de carte aplicatie .
+
+
 ![photo_2022-06-21_10-51-56](https://user-images.githubusercontent.com/50695552/174746234-df68b011-3453-4d93-af60-9e03e5d0f748.jpg)
